@@ -1,0 +1,49 @@
+OPTIONS
+* elastic tabs (more powerful in typesetted style!)
+* collapsable regions
+* smart indents
+
+FEATURES
+* color scheme selection
+* typesetting scheme selection
+* schemas for parsing languages
+* vim editing mode
+* emacs editing mode
+* preview (sublime style)
+* copy/paste/undo
+* bold/italic etc (markdown)
+* image embed
+* style/color designer (provide styleguide)
+* import/export of style/colors
+* ctag support etc etc
+
+OPERATION
+* take source file
+* process it via a language process module
+* process it via a style module and render
+* render it also via a color module
+
+if foo -> {kw:if} {ident:foo} {scope}
+end
+
+if foo: -> {kw:if} {ident:foo} {scope}
+  pass
+
+if (foo) { -> {kw:if} {ident:foo} {scope}
+}
+
+class Foo: -> {class} {ident:foo}
+
+* ASTs are styled with css
+* lexicon is colored via color modules
+* elastic tabs are when columns align in monospace form
+
+int x = 1;   // X is a thing
+int y = 3;   // Y is a thing
+int foo = 4; // This should be lined up...
+int b = 77;  // ...with this line
+
+* whenever a space is added, all comments are pushed over equally. They are lined up on export.
+
+* tab creates scopes? How much do we automatically do?
+* Let's experiment with both! :)

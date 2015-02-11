@@ -1,0 +1,120 @@
+/* Top bar */
+
+.topbar {
+  width: 100%;
+
+  color: #888888;
+  background-color: #555555;
+}
+
+.topbar .navtab {
+  width: 100%;
+  background-color: #dddddd;
+  font-family: "Marcellus SC", serif;
+  border-bottom: 1px solid #444;
+}
+
+.topbar .navtab ul li {
+  border-right: 1px solid #888888;
+  cursor: pointer;
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 4px;
+}
+
+.topbar .navtab ul li ~ li {
+}
+
+.topbar .navtab ul li:first-child {
+  background-color: #4444dd;
+  color: white;
+}
+
+.topbar .navbar {
+  border-bottom: 1px solid #444;
+  display: none;
+  width: 100%;
+}
+
+.topbar .navbar ul {
+  display: block;
+  height: 48px;
+}
+
+.topbar .navbar ul li {
+  cursor: pointer;
+  display: inline-block;
+  height: 48px;
+  max-height: 48px;
+  max-width: 48px;
+  width: 48px;
+}
+
+.topbar .document.navbar {
+  display: block;
+}
+
+/* Code Box */
+
+.codebox {
+  padding: 20px;
+}
+
+.codebox .code {
+  color:          #555555;
+  font-family:    "inconsolata", monospace;
+  font-size:      12px;
+  padding-left:   10px;
+  padding-bottom: 10px;
+}
+
+.codebox .comment {
+  font-size:    16px;
+  font-family:  "Open Sans", sans-serif;
+  font-weight:  200;
+  line-height:  1.4em;
+  color:        green;
+}
+
+.codebox .comment ~ * {
+  padding-top: 10px;
+}
+
+.codebox h1 {
+  font-size:    16px;
+  font-family:  "Marcellus SC", sans-serif;
+}
+
+.codebox .scope {
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.codebox h1 span.keyword {
+  color: #4444ff;
+}
+/*
+
+.codebox * {
+  font-family: "inconsolata", monospace !important;
+  font-size: 12px !important;
+  padding: 0px !important;
+}
+
+.codebox .comment:before {
+  content: '//';
+}
+
+.codebox .scope {
+  padding-left: 10px !important;
+}
+
+.codebox .scope:before {
+  content: '{'
+}
+
+.codebox .scope:after {
+  content: "}"
+}
+*/

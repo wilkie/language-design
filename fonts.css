@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'Alegreya Sans SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Alegreya Sans SC'), local('AlegreyaSansSC-Regular'), url(public/fonts/alegreya/alegreya.woff2) format('woff2'), url(public/fonts/alegreya/alegreya.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Cinzel Decorative';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Cinzel Decorative Bold'), local('CinzelDecorative-Bold'), url(public/fonts/cinzel/cinzel.woff2) format('woff2'), url(public/fonts/cinzel/cinzel.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(public/fonts/lato/lato.woff2) format('woff2'), url(public/fonts/lato/lato.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Marcellus SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Marcellus SC'), local('MarcellusSC-Regular'), url(public/fonts/marcellus/marcellus.woff2) format('woff2'), url(public/fonts/marcellus/marcellus.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(public/fonts/opensans/open_sans_300.woff2) format('woff2'), url(public/fonts/opensans/open_sans_300.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(public/fonts/opensans/open_sans_400.woff2) format('woff2'), url(public/fonts/opensans/open_sans_400.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(public/fonts/opensans/open_sans_600.woff2) format('woff2'), url(public/fonts/opensans/open_sans_600.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oxygen'), local('Oxygen-Regular'), url(public/fonts/oxygen/oxygen.woff2) format('woff2'), url(public/fonts/oxygen/oxygen.woff) format('woff');
+}
